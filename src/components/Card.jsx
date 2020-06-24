@@ -9,7 +9,7 @@ const Card = (props) => {
     const {name, desc, username, website} = props;
     return (
         <div className="card" style={style}>
-  <img className="card-img-top" src={`https://github.com/${username}.png`} />
+  <img className="card-img-top" src={`https://github.com/${username}.png`} alt='github profile'/>
   <div className="card-body">
     <h5 className="card-title">{name}</h5>
     <p className="card-text">{desc}</p>
