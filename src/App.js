@@ -20,6 +20,12 @@ const users = [
     username: 'pkspyder007',
     website: 'https://thejsguy.me'
   },
+  {
+    name:'Harsh ',
+    desc: 'Description for Harsh',
+    username: 'kohliharsh',
+    website: null
+  },
 {
   name:'ParamJeet',
   desc: 'Description for Param',
